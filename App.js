@@ -41,7 +41,7 @@ export default function App() {
     <View style={styles.container}>
       <Text>Random OSRS Item</Text>
       <Text>{itemName}</Text>
-      {itemImage ? ( // Tarkistetaan, onko itemImage tyhjö
+      {itemImage ? ( // Tarkistetaan, onko itemImage tyhjö, ei pitäs olla
         <Image source={{ uri: itemImage }} style={styles.imagenStyle} />
       ) : (
         <Text>no photoo found</Text>
